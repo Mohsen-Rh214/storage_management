@@ -1,0 +1,43 @@
+@font-face {
+    font-family: IRANSansWeb;
+    src: url('../fonts/IRANSansWeb/woff/IRANSansWeb.woff') format('woff'),
+    url('../fonts/IRANSansWeb/woff2/IRANSansWeb.woff2') format('woff2')
+}
+
+div {
+    font-family:IRANSansWeb;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    position: relative;
+    right: 10px;
+}
+    
+#footer {
+    font-weight: normal;
+    text-align: center
+}
+
+.btn-xs {
+    float: left;
+    margin: 0px 1px;
+    padding: 10px;
+    size: 4px 20px;
+}
+
+.badge {
+    position: relative;
+    right: 200px;
+    top: 3px;
+}
+
+#listItem {
+    position: relative;
+    left: 35px;
+    color: black;
+}
+
+h4 {
+    margin-right: 15px;
+}
